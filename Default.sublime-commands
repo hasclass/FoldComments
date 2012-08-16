@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Fold Comments",
+        "command": "fold_comments"
+    },
+    {
+        "caption": "Unfold Comments",
+        "command": "unfold_comments"
+    }
+]
