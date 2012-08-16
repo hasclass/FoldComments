@@ -6,9 +6,17 @@ This package is inspired by the code and discussion here: http://www.sublimetext
 
 ## Installation
 
-
-In Sublime Text
+In Sublime Text:
 
 * Cmd+Shift+p
 * Go to (start typing): Package Control: Add Repository
 * Enter: https://github.com/hasclass/SublimeFoldComments
+* Cmd+Shift+p
+* Go to (start typing): Package Control: Install Package
+* Type FoldComments
+
+## Useage
+
+Cmd+Shift+/ will fold/unfold multi-line comments.
+
+Single line comments are not folded.

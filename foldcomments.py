@@ -1,5 +1,7 @@
 import sublime, sublime_plugin
 
+# Do not load automatically:
+#
 # class FoldFileComments(sublime_plugin.EventListener):
 #     def on_load(self, view):
 #         for region in view.find_by_selector('comment'):
@@ -15,7 +17,9 @@ class ToggleCommentsCommand(sublime_plugin.TextCommand):
             # first comment is unfolded. fold everything
             for region in view.find_by_selector('comment'):
                 # do not single line comments
-                if len(view.lines(region)) > 1:
+                is_multi_line = len(view.lines(region)) > 1
+                is_long_line  = region.b - region.a > 80
+                if is_multi_line or is_long_line:
                   offset = view.find('#', region.a).b
                   view.fold(sublime.Region(offset, region.b - 1))
         else:

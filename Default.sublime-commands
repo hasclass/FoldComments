@@ -6,5 +6,9 @@
     {
         "caption": "Unfold Comments",
         "command": "unfold_comments"
+    },
+    {
+        "caption": "Toggle Comments",
+        "command": "toggle_comments"
     }
 ]
