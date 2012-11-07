@@ -20,3 +20,12 @@ In Sublime Text:
 Cmd+Shift+/ will fold/unfold multi-line comments.
 
 Single line comments are not folded.
+
+## Before
+
+![Show Comments](https://raw.github.com/hasclass/FoldComments/master/_site/images/comments-show.png)
+
+## After
+
+![Hide Comments](https://raw.github.com/hasclass/FoldComments/master/_site/images/comments-hide.png)
+
