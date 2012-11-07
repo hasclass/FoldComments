@@ -10,7 +10,7 @@ In Sublime Text:
 
 * Cmd+Shift+p
 * Go to (start typing): Package Control: Add Repository
-* Enter: https://github.com/hasclass/SublimeFoldComments
+* Enter: https://github.com/hasclass/FoldComments
 * Cmd+Shift+p
 * Go to (start typing): Package Control: Install Package
 * Type FoldComments
