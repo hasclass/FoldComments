@@ -1,0 +1,12 @@
+[
+  {
+    "id": "edit",
+    "children": [{
+      "id": "fold",
+      "children": [
+        { "caption": "-" },
+        { "command": "toggle_comments", "caption": "Toggle Comments" }
+      ]
+    }]
+  }
+]
