@@ -8,6 +8,7 @@ This package is inspired by the code and discussion here: http://www.sublimetext
 
 In Sublime Text:
 
+* Make sure "Package Control" is installed (http://wbond.net/sublime_packages/package_control)
 * Cmd+Shift+p
 * Go to (start typing): Package Control: Add Repository
 * Enter: https://github.com/hasclass/FoldComments
