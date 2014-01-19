@@ -4,6 +4,13 @@ Sublime Text 2 package that hides/folds code comments. Ideal if you have heavily
 
 This package is inspired by the code and discussion here: http://www.sublimetext.com/forum/viewtopic.php?f=3&t=4620
 
+## Tested with:
+
+FoldComments does not work with all programming languages, it's been reported to work with at least:
+
+* Ruby
+* CoffeeScript
+
 ## Installation
 
 In Sublime Text:
