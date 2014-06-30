@@ -1,3 +1,10 @@
+# Status
+
+There is a more uptodate Fork of this project which also integrates with Package Control to be found here:
+
+https://github.com/oskarols/foldcomments
+
+
 # FoldComments
 
 Sublime Text 2 package that hides/folds code comments. Ideal if you have heavily documented ruby code.
